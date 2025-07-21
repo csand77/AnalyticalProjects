@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="/img/sun.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.typekit.net/zpv5zoe.css" />
+    <script
+      src="https://kit.fontawesome.com/ca2692ca00.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      body {
+        font-family: "Helvetica, Arial", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      .iconHeader {
+        color: #1a64d6;
+        font-size: 200px;
+      }
+
+      h1 {
+        font-family: "Helvetica, Arial", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: #1a64d6;
+        font-weight: 600;
+        font-size: 34px;
+        margin: 2px;
+      }
+
+      h2 {
+        font-family: "Helvetica, Arial", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        margin: 3px;
+      }
+
+      .tempToday {
+        font-family: "Helvetica, Arial", sans-serif;
+        font-size: 30px;
+        margin: 2px auto 30px auto;
+      }
+
+      .minTempHeader {
+        font-weight: 100px;
+      }
+
+      i {
+        color: #ffacc7;
+      }
+
+      main {
+        text-align: center;
+      }
+
+      .weatherDay {
+        margin: 10px auto;
+        padding: 10px;
+        max-width: 30vw;
+        transition: all 250ms ease-in-out;
+      }
+
+      .weatherDay:hover {
+        background-color: #fff7e0;
+      }
+
+      .day {
+        font-weight: 0;
+        letter-spacing: 1px;
+      }
+
+      button {
+        font-family: "Helvetica, Arial", sans-serif;
+        font-weight: 700;
+        margin: 30px;
+        padding: 3px;
+        width: 140px;
+        height: 60px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #1a64d6;
+        color: white;
+        box-shadow: 3px 3px 10px #bdcdd6;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background-color: transparent;
+        color: #8ea7e9;
+        border: solid 1px #8ea7e9;
+      }
+
+      footer {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .devAlana {
+        font-family: "Helvetica, Arial", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:link,
+      a:visited {
+        color: #3c4048;
+      }
+
+      a:hover {
+        color: #82cd47;
+      }
+
+      a:active {
+        color: #f6ffde;
+      }
+
+      .iconFooter {
+        color: #1a64d6;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        🌤 <br />
+        Currently 21° in Tokyo
+      </h1>
+      <br />
+      <h2>
+        <span style="font-weight: lighter"> 13°</span> / <strong>23°</strong>
+      </h2>
+    </header>
+
+    <main>
+      <section class="weatherDay">
+        <p class="day"><strong>🌧Tomorrow</strong></p>
+        <p>10° / <strong>22°</strong></p>
+      </section>
+      <section class="weatherDay">
+        <p class="day"><strong>🌥Saturday</strong></p>
+        <p>15° / <strong>17°</strong></p>
+      </section>
+      <section class="weatherDay">
+        <p class="day"><strong>☀️Sunday</strong></p>
+        <p>25° / <strong>28°</strong></p>
+      </section>
+      <button>Change city</button>
+      <p>Coded by Courtney Sanders</p>
+    </main>
+  </body>
+</html>
